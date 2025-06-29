@@ -29,6 +29,16 @@ Fine-grained image classification focuses on distinguishing between subtle varia
 - Handling of subtle inter-class variations
 - Performance optimization strategies
 
+### 4. Satellite Image Analysis: Spectral Indices (NDWI, MNDWI, NDVI) with Google Earth Engine
+This project focuses on the application of spectral indices for environmental analysis using satellite imagery. It demonstrates the calculation and visualization of:
+
+- **Normalized Difference Water Index (NDWI):** For delineating open water features.
+
+- **Modified Normalized Difference Water Index (MNDWI):** For enhanced water feature extraction, particularly in urban areas, by suppressing built-up land noise.
+
+- **Normalized Difference Vegetation Index (NDVI):** For quantifying vegetation greenness and health.
+
+The implementation utilizes Google Earth Engine (GEE) and Landsat 8 satellite imagery to perform these calculations and generate visual outputs.
 
 
 ## Contributing

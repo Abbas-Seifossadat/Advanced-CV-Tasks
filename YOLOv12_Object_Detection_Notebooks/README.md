@@ -15,7 +15,7 @@ This notebook demonstrates the use of YOLOv12's small (`yolov12s.pt`), medium (`
 - Filter and visualize only the 'person' class using both raw PIL and `supervision`.
 - Provides performance insights on model size vs. detection speed.
 
-> ?? Use case: Benchmarking pre-trained YOLOv12 models on sample inputs.
+> Use case: Benchmarking pre-trained YOLOv12 models on sample inputs.
 
 ---
 
@@ -82,8 +82,6 @@ pip install supervision roboflow icrawler albumentations
 
 * The Roboflow API key is required to download the dataset.
 * The `.pt` model (YOLOv12 fine-tuned weights) is assumed to be available in `runs/detect/.../best.pt`.
-
-```
 
 
 

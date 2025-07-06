@@ -41,6 +41,20 @@ This project focuses on the application of spectral indices for environmental an
 The implementation utilizes Google Earth Engine (GEE) and Landsat 8 satellite imagery to perform these calculations and generate visual outputs.
 
 
+### 5. YOLOv12 Object Detection Notebooks
+This section explores advanced object detection using YOLOv12. It includes two notebooks focused on inference and training:
+
+- **Notebook 1 – Inference and Visualization:**  
+  Evaluates YOLOv12-small, medium, and large models on a sample image. It compares runtime performance and visualizes results using bounding boxes and labels, including filtering for specific classes (e.g., person). This serves as a performance benchmark and inference demonstration.
+
+- **Notebook 2 – Training on Car Components Dataset:**  
+  Provides a full pipeline for fine-tuning YOLOv12 on a Roboflow car components dataset. It covers:
+  - Dataset inspection and annotation visualization
+  - Albumentations-based data augmentation
+  - Training and evaluation of `yolov12l.pt`
+  - Real-world deployment on images of Iranian cars
+
+
 ## Contributing
 
 Contributions to improve the implementations are welcome. Please feel free to submit pull requests or create issues for any bugs or improvements.

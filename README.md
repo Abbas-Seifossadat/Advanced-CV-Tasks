@@ -54,6 +54,16 @@ This section explores advanced object detection using YOLOv12. It includes two n
   - Training and evaluation of `yolov12l.pt`
   - Real-world deployment on images of Iranian cars
 
+### 6. Advanced Stable Diffusion: Inference, DreamBooth, and LoRA Fine-Tuning
+
+This section explores generative AI using Stable Diffusion across three stages:
+
+* **Inference with Prompts** for text-to-image and image-to-image generation, including negative prompt optimization.
+* **DreamBooth Fine-Tuning** to train the model on a specific subject (e.g., a person) using a small image set.
+* **LoRA Style Adaptation** to teach the model artistic styles efficiently, using low-rank adaptation and the `kohya_ss` trainer.
+
+Each notebook demonstrates a complete workflow—from setup to inference—with visual comparisons to validate results.
+
 
 ## Contributing
 
